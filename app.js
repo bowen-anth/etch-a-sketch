@@ -48,4 +48,4 @@ MAIN_DIV.addEventListener("click", (event) => {
   }
 });
 
-createGrid(16);
+createGrid(40);
