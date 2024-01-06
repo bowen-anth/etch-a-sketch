@@ -3,3 +3,37 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100dvh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 10dvh auto;
+}
+
+.main div {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  align-content: center;
+  flex: none;
+  flex: 0 0 calc(6.25% - 1em); /* (100% / 16) - gap */
+}
+
+/* .main div:hover {
+  background-color: beige;
+} */
+
+.grid-item.colored {
+  background-color: white !important;
+}
+
+.grid-item {
+  background-color: teal;
+}
